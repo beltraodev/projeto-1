@@ -1,0 +1,48 @@
+body {
+    background-color: azure; /*cor de fundo da pagina*/
+   font-family: Arial, sans-serif; /*fonte definida*/
+   color: #333; /*cor dos textos dentro do body*/
+
+   /* Adicione um pouco de margem ao conteúdo para não ficar escondido */
+   margin-top: 50px; /* ajusta conforme a altura da navbar */
+}
+
+h1 { /*cor do texto h1*/
+   color: blue;
+}
+
+ul li { /*cor para lista não ordenada com bolas na frente*/
+   color: green;
+}
+
+/* Estilo básico da navbar */
+.navbar {
+   list-style: none; /* Tira as bolinhas */
+   background-color: #333; /* Fundo escuro */
+   display: flex; /* Alinha os itens na horizontal */
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+
+   position: fixed; /* fixa na tela */
+   top: 0;          /* topo da página */
+   left: 0;         /* começa do canto esquerdo */
+   width: 100%;     /* largura total */
+   z-index: 1000;   /* fica sobre outros elementos */
+}
+
+.navbar  {
+   margin: 0;
+}
+
+.navbar a {
+   display: block;
+   padding: 15px 20px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.navbar a:hover {
+   background-color: #555; /* Cor quando passa o mouse */
+}
