@@ -1,37 +1,61 @@
 body {
-    background-color: azure; /*cor de fundo da pagina*/
-   font-family: Arial, sans-serif; /*fonte definida*/
-   color: #333; /*cor dos textos dentro do body*/
+   background-color: azure;
+   /*cor de fundo da pagina*/
+   font-family: Arial, sans-serif;
+   /*fonte definida*/
+   color: #333;
+   /*cor dos textos dentro do body*/
 
    /* Adicione um pouco de margem ao conteúdo para não ficar escondido */
-   margin-top: 50px; /* ajusta conforme a altura da navbar */
+   margin-top: 50px;
+   /* ajusta conforme a altura da navbar */
 }
 
-h1 { /*cor do texto h1*/
-   color: blue;
+h1 {
+   /*cor do texto h1*/
+   display: flex;
+   justify-content: center;
+   margin-top: 3cap;
+   color: rgb(39, 39, 41);
 }
 
-ul li { /*cor para lista não ordenada com bolas na frente*/
+ul li {
+   /*cor para lista não ordenada com bolas na frente*/
    color: green;
+}
+
+.logo {
+   position: fixed;
+   top: 0;
+   height: 50px;
+   z-index: 1100;
 }
 
 /* Estilo básico da navbar */
 .navbar {
-   list-style: none; /* Tira as bolinhas */
-   background-color: #333; /* Fundo escuro */
-   display: flex; /* Alinha os itens na horizontal */
+   list-style: none;
+   /* Tira as bolinhas */
+   background-color: #777777;
+   /* Fundo escuro */
+   display: flex;
+   /* Alinha os itens na horizontal */
    justify-content: center;
    padding: 0;
    margin: 0;
 
-   position: fixed; /* fixa na tela */
-   top: 0;          /* topo da página */
-   left: 0;         /* começa do canto esquerdo */
-   width: 100%;     /* largura total */
-   z-index: 1000;   /* fica sobre outros elementos */
+   position: fixed;
+   /* fixa na tela */
+   top: 0;
+   /* topo da página */
+   left: 0;
+   /* começa do canto esquerdo */
+   width: 100%;
+   /* largura total */
+   z-index: 1000;
+   /* fica sobre outros elementos */
 }
 
-.navbar  {
+.navbar {
    margin: 0;
 }
 
@@ -44,5 +68,9 @@ ul li { /*cor para lista não ordenada com bolas na frente*/
 }
 
 .navbar a:hover {
-   background-color: #555; /* Cor quando passa o mouse */
+   background-color: #555;
+   /* Cor quando passa o mouse */
 }
+
+
+
